@@ -10,32 +10,44 @@ import "./style.css"
     const oMenu = document.getElementById('menu');
     const menuList = [
         {
-            name:"检查是否支持WebGPU",
+            name:"01 检查是否支持WebGPU",
             path:'/01'
         },
         {
-            name:"绘制三角形",
+            name:"02 绘制三角形",
             path:'/02'
         },
         {
-            name:"理解point-list",
+            name:"02 理解point-list",
             path:'/02point-list'
         },
         {
-            name:"理解line-list",
+            name:"02 理解line-list",
             path:'/02line-list'
         },
         {
-            name:"理解line-strip",
+            name:"02 理解line-strip",
             path:'/02line-strip'
         },
         {
-            name:"理解triangle-list",
+            name:"02 理解triangle-list",
             path:'/02triangle-list'
         },
         {
-            name:"理解triangle-strip",
+            name:"02 理解triangle-strip",
             path:'/02triangle-strip'
+        },
+        {
+            name:"03 动态资源绑定",
+            path:'/03'
+        },
+        {
+            name:"03 理解参数精细拆分01",
+            path:'/03attributes-01'
+        },
+        {
+            name:"03 理解参数精细拆分02",
+            path:'/03attributes-02'
         }
     ];
     menuList.forEach(item => {

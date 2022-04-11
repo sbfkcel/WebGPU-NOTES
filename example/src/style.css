@@ -5,3 +5,5 @@ a:hover {background:#595959; color:white;}
 .current,.current:hover {background:black; color:white;}
 #menu {width:180px; height:100%; background:#ccc; position:fixed; left:0; top:0;}
 #app {position:absolute; left:180px; color:white; text-align:center;}
+#operate {width:120px; position:fixed; right:10px; top:0;}
+#operate input {width:100%; margin:10px 0;}
