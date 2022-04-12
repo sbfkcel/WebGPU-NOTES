@@ -5,9 +5,9 @@
 
 ## WebGPU 简介
 
-由W3C组织定义的一个新的API标准，用于在Web上使用Javascript来控制GPU计算和绘制。该标准获取得了目前所有主流厂商的支持，由大家一起参与WebGPU的发展。有望成为一个全平台支持的标准。
+由W3C组织定义的一个新的API标准，用于在Web上使用Javascript来控制GPU计算和绘制。该标准获得了目前所有主流厂商的支持，由大家一起参与WebGPU的发展。有望成为一个全平台支持的标准。
 
-WebGPU拟补了过去WebGL的各种不足和背负的各种历史包袱，其主要接入现代图形API（Direct3D、Vulkman、Metal）。总是相对比WebGL其会更快、更强、更灵活，更符合Web现代的开发标准。
+WebGPU拟补了过去WebGL的各种不足和背负的各种历史包袱，其主要接入现代图形API（Direct3D、Vulkman、Metal）。总之相比WebGL，其会更快、更强、更灵活，更符合Web现代的开发标准。
 
 
 ## WebGL与WebGPU的那些事儿
@@ -25,7 +25,7 @@ WebGL相当于是在使用十几年前的OpenGL框架体系。而OpenGL本身就
 ## WebGPU支持现状
 
 - Chrome Google 基于 Dawn 实现，v94-101 版本已经提供桌面端支持
-- FireFox Mozilla 基于 gfx-rs 实现，Nightly Build版本支持桌面和Android端
+- FireFox Mozilla 基于 gfx-rs 实现，Nightly Build版本支持桌面端和Android端
 - Safari Apple 基于 WebKit 实现，开发者预览版支持IOS、Mac
 
 
@@ -33,11 +33,11 @@ WebGL相当于是在使用十几年前的OpenGL框架体系。而OpenGL本身就
 
 - 开发工具
     - [Chrome Canary](https://www.google.cn/intl/zh-CN/chrome/canary/)支持最新的 WebGPU API
-    - [Visual Studio Code](https://code.visualstudio.com/) 对 WebGPU 相关的生态较完善
+    - [Visual Studio Code](https://code.visualstudio.com/) 对 WebGPU 相关生态支持比较完善
     - [Vite](https://vitejs.dev/) 速度上较快的编译、打包工具
 - 语言
     - TypeScript 利用其类型特性来检查代码是否使用正确，节省找文档时间
-    - WGSL WebGPU新义的新的着色器语言
+    - WGSL WebGPU 新的着色器语言
     - HTML/CSS
 - 环境
     - Node.js
