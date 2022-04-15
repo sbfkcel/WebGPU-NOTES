@@ -125,7 +125,7 @@ const initPipeline = async (device:GPUDevice, format:GPUTextureFormat)=>{
                         shaderLocation:0,
                         // 为 0 即从头开始
                         offset:0,
-                        // 标示参数的长度大小，这里是xyz，所以是 float32x2
+                        // 标示参数的长度大小，这里是xyz，所以是 float32x3
                         format:'float32x3'
                     }
                 ]
